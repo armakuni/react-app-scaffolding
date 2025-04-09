@@ -1,6 +1,7 @@
 /**
  * @jest-environment jsdom
  */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { fireEvent, render, screen } from "@testing-library/react";
 import Counter from "./counter";
 

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { add } from "./add";
 
 test("Test functions that import server-only", () => {
