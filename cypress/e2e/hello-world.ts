@@ -9,7 +9,7 @@ When('I check the home page', function () {
     cy.visit("/")
 });
 
-Then('I see that the App Router is running', function () {
-    cy.contains('h1', 'App Router');
+Then('I see that the World has been greeted', function () {
+    cy.contains('h1', 'Hello, World!');
 });
 
